@@ -125,6 +125,6 @@ app.delete("/students/:rollNO", (req, res) => {
    
   });
 // local server port
-app.listen(5000, () => {
-  console.log("Server started at port 5000");
+app.listen(5001, () => {
+  console.log("Server started at port 5001");
 });
